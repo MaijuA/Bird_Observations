@@ -12,3 +12,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.row {
+  width: 100%;
+}
+
+.card {
+  margin: 0;
+}
+
+.container {
+  padding: 1rem 0 1rem 0;
+}
+
+.sortCheckbox {
+  padding: 1rem;
+}
+
