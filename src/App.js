@@ -29,7 +29,6 @@ class App extends React.Component {
     }
     // a random id generator
     const id = (Math.random() * 10000).toFixed(0);
-    console.log(lat, long)
     const observation = {
       id: id,
       name: e.target[0].value,

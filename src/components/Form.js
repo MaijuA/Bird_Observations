@@ -10,9 +10,9 @@ class AddObservation extends Component {
     componentDidMount() {
         // to auto resize the textarea
         M.AutoInit();
-        window.navigator.geolocation.getCurrentPosition(
+        navigator.geolocation.getCurrentPosition(
             position => this.setState({ lat: position.coords.latitude, long: position.coords.longitude }),
-            err => M.toast({ html: "Geolocation disabled!" })
+            err => M.toast({ html: "Geolocation not supported!" })
         );
     }
 
