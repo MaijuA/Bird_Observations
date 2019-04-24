@@ -47,7 +47,6 @@ class App extends React.Component {
 
     this.props.history.push("/");
     M.toast({ html: "New observation added!" })
-
   };
 
   render() {
@@ -71,6 +70,5 @@ class App extends React.Component {
     )
   }
 }
-
 
 export default withRouter(App);
